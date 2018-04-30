@@ -1,7 +1,9 @@
 # firebase-realtime-todo
 
 1.1 Create react app with starter kit
+
 1.2 Setup Google Firebase
+
 Next, we gonna setup backend and database for our project.
 
 Go to https://console.firebase.google.com and create new project
@@ -45,45 +47,4 @@ we are going to store the data in this way.
 ```
 $ npm install --save react-redux redux redux-thunk
 ```
-
-2.3 Read and Write to firebase
-
-src/
- |- components
-   |- App/
-   |- comfigureStore.js
-   |- root.js
-   |- routes.js
- |- javascripts
-   |- models
-     |- section.js
-     |- todo.js
-   |- firebase.js
- |- reducers
-   |- index.js
-   |- todo.js
-   
-   
- 2.4 Create view
  
- src/
- |- actions
-   |- todo.js
- |- components
-   |- App/
-     |- ...
-     |- section-list.js
-   |- comfigureStore.js
-   |- root.js
-   |- routes.js
- |- constants
-   |- index.js
- |- javascripts
-   |- models
-     |- section.js
-     |- todo.js
-   |- firebase.js
- |- reducers
-   |- index.js
-   |- todo.js
-
